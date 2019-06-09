@@ -1,0 +1,46 @@
+body {
+    background-color: #02010a;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Dancing Script;
+    color: white;
+}
+
+header {
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+}
+
+#tituloCabecera {
+    text-indent: 20px;
+    text-shadow: 2px 2px 2px #02010a;
+}
+
+#menuCabecera {
+    font-size: 15pt;
+}
+
+#menuCabecera a {
+    padding-right: 25px;
+    color: white;
+}
+
+.enlace_actual {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    #contenido {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
